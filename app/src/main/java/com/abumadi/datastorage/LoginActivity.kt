@@ -13,9 +13,6 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        //??
-        window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
-
 
         SignIn_Btn.setOnClickListener {
 
@@ -31,7 +28,5 @@ class LoginActivity : AppCompatActivity() {
 
             startActivity(Intent(this, MainActivity::class.java))
         }
-
     }
-
 }
